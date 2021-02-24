@@ -72,8 +72,11 @@
 	
 	<div id="body">
 		<a href="<?php echo site_url('welcome/index/lang/ge')?>">Switch to German</a>
-		<a href="<?php echo site_url('welcome/index/lang/ar')?>">Switch to Arabic</a>
 		<a href="<?php echo site_url('welcome/index/lang/en')?>">Switch to English</a>
+		<a href="<?php echo site_url('welcome/index/lang/ar')?>">Switch to Arabic</a>
+		<a href="<?php echo site_url('welcome/index/lang/fr')?>">Switch to French</a>
+		<a href="<?php echo site_url('welcome/index/lang/hi')?>">Switch to Hindi</a>
+		<a href="<?php echo site_url('welcome/index/lang/id')?>">Switch to Bahasa</a>
 		<br>
 		
 	</div>
