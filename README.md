@@ -1,11 +1,10 @@
-# Codeigniter-language-db
+# Codeigniter-language-db => phpmyMultiLangMySQLCI
 Codeigniter library for multi language websites using Codeigniter framework
 
 # install
 1. add files to your project
 2. import db tabels.
 That's it !
-
 
 # Usage
 1. add your pages names to 'page' table
@@ -16,4 +15,3 @@ That's it !
 6. load page in your controller like:
 	$this->language->load('page_name');
 7. use 'lang("string_holder")' to print your language word.
-
