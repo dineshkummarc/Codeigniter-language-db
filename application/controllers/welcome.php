@@ -30,7 +30,7 @@ class Welcome extends CI_Controller {
 		//  quick language switcher
 		if($this->uri->segment(3) == 'lang'){
             switch ($this->uri->segment(4)) {
-            	case 'ge': $this->session->set_userdata('lang', '1'); break;
+            	case 'de': $this->session->set_userdata('lang', '1'); break;
                 case 'en': $this->session->set_userdata('lang', '2'); break;
                 case 'ar': $this->session->set_userdata('lang', '3'); break;
 				case 'fr': $this->session->set_userdata('lang', '4'); break;
