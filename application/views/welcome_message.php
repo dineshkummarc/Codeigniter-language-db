@@ -69,16 +69,15 @@
 <div id="container">
 	<h1><?=lang("welcome_message_title");?></h1>
 	
-	
 	<div id="body">
+	<p>Select Language:</p>
 		<a href="<?php echo site_url('welcome/index/lang/de')?>">German</a>
 		<a href="<?php echo site_url('welcome/index/lang/en')?>">English</a>
 		<a href="<?php echo site_url('welcome/index/lang/ar')?>">Arabic</a>
 		<a href="<?php echo site_url('welcome/index/lang/fr')?>">French</a>
 		<a href="<?php echo site_url('welcome/index/lang/hi')?>">Hindi</a>
 		<a href="<?php echo site_url('welcome/index/lang/id')?>">Bahasa</a>
-		<br>
-		
+		<br>	
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
