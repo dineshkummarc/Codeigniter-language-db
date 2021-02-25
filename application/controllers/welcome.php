@@ -33,6 +33,9 @@ class Welcome extends CI_Controller {
             	case 'ge': $this->session->set_userdata('lang', '1'); break;
                 case 'en': $this->session->set_userdata('lang', '2'); break;
                 case 'ar': $this->session->set_userdata('lang', '3'); break;
+				case 'fr': $this->session->set_userdata('lang', '4'); break;
+				case 'hi': $this->session->set_userdata('lang', '5'); break;
+				case 'id': $this->session->set_userdata('lang', '6'); break;
             }
 			$url = explode('/', uri_string());
 			array_pop($url);array_pop($url);
